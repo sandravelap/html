@@ -1,0 +1,52 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 6px black solid;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+h6{
+    color: #060270;
+    font-size:12px;
+    font-style: italic;
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: aqua;
+    height: 15%;
+}
+nav{
+    background-color:green;
+    height: 10%;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.botonNav{
+    width: 25vw
+}
+main{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255,255,255, 0.5),
+        rgba(255,255,255,0)
+    ),
+    url("media/hummingbird-8013214_1280.jpg");
+    height: 70%;
+    background-size: cover;
+}
+
+@media(max-width:500px){
+    nav{
+        height: 50%;
+        flex-direction: column;
+    }
+    .botonNav{
+        width: 80vw;
+        height: 10vh;
+    }
+}
