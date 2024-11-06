@@ -1,0 +1,15 @@
+header{
+    height: 10vh;
+    background-color: aquamarine;
+    text-align: center;
+}
+nav{
+    height: 50vh;
+
+}
+.circleButton{
+    border:5px solid black;
+    border-radius: 50%;
+    max-width: 60%;
+    max-height: 60%;
+}
