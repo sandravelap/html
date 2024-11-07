@@ -5,11 +5,10 @@ header{
 }
 nav{
     height: 50vh;
-
+    display: flex;
 }
 .circleButton{
     border:5px solid black;
     border-radius: 50%;
-    max-width: 60%;
-    max-height: 60%;
+    padding:50px ;
 }
